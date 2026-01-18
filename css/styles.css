@@ -144,7 +144,7 @@ address {
     background-color: #2e2f42;
     padding: 188px 0;
     background-image: linear-gradient(
-        rgba(46, 47, 66, 0.4),
+        rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
         url("../images/peopleofficeS1.jpg");
         background-repeat: no-repeat;
@@ -422,7 +422,7 @@ footer {
 }
 
 .social-icon {
-    fill: #ffffff;
+    fill: #f4f4fd;
 }
 
 .footer-media-text {
@@ -435,6 +435,10 @@ footer {
 }
 
 .footer-icon-list .social-icon-link:hover {
+    background-color: #31d0aa;
+}
+
+.footer-icon-list .social-icon-link:focus {
     background-color: #31d0aa;
 }
 
