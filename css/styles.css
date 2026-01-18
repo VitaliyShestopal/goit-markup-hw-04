@@ -344,6 +344,8 @@ address {
 .container-img {
     position: relative;
     overflow: hidden;
+    display: block;
+    max-width: 100%;
 }
 .text-hover {
     position: absolute;
@@ -398,6 +400,7 @@ footer {
 .footer-content {
     display: flex;
     gap: 120px;
+    align-items: baseline
 }
 
 .footer-icon-list {
@@ -427,11 +430,11 @@ footer {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: #f4f4fd;
     padding-bottom: 16px;
 }
 
-.footer-icon-list .icon-item:hover {
+.footer-icon-list .social-icon-link:hover {
     background-color: #31d0aa;
 }
 
